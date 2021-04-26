@@ -1,5 +1,5 @@
 import React from 'react';
-import * as firebase from 'firebase';
+import firebase from 'firebase';
 import PlayMusic from './PlayMusic';
 class AllSongs extends React.Component
 {

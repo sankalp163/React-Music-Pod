@@ -3,21 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import * as firebase from 'firebase';
+import firebase from 'firebase/app'
+import 'firebase/firebase-firestore';
 
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: process.env.REACTIVE_POD_API_KEY,
-    authDomain: process.env.REACTIVE_POD_AUTH_DOMAIN,
-    databaseURL: "https://reactive-pod.firebaseio.com",
-    projectId: "reactive-pod",
-    storageBucket: "reactive-pod.appspot.com",
-    messagingSenderId: process.env.REACTIVE_POD_MESSAGEING_SENDER_ID,
-    appId: process.env.REACTIVE_POD_APP_ID
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+  apiKey: "AIzaSyD9tP8U6J_Mdte7oWvkDeO-4vKnhpYewpM",
+  authDomain: "react-music-pod.firebaseapp.com",
+  projectId: "react-music-pod",
+  storageBucket: "react-music-pod.appspot.com",
+  messagingSenderId: "479738673677",
+  appId: "1:479738673677:web:7df1eab49523704d50f344"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
 ReactDOM.render(<App />,document.getElementById('root'));
 
