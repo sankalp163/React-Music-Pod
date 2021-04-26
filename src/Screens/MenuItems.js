@@ -19,8 +19,8 @@ class MenuItems extends React.Component
                     })
                 }
                 {optionsInMenu.length === 3 ?
-                    <div style={{color:'green'}}>
-                        <p style={{fontSize:18}}>click "<i className="fas fa-backward"></i>" to go back</p>
+                    <div style={{color:'red'}}>
+                        <p style={{fontSize:18}}>"<i className="fas fa-backward"></i>" for back</p>
                     </div>:''
                 }
             </React.Fragment>

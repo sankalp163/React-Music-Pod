@@ -29,8 +29,9 @@ code {
 .App {
 	margin: 1% auto 0px auto;
 	width: min-content;
+
 	padding: 20px 10px 5px 10px;
-	border-radius: 4px;
+	border-radius: 50px;
 	background-image: url("./4196050.jpg");
 	box-shadow: 0px 0px 12px 2px black;
     background-size: cover;
@@ -46,8 +47,8 @@ code {
 
 /* SCREEN */
 .screen-container {
-	width: 350px;
-	height: 350px;
+	width: 320px;
+	height: 280px;
 	margin: 0px auto;
 	background-image: url("./image.jpg");
 	background-position: center;
@@ -55,7 +56,7 @@ code {
 	background-size: cover;
 	overflow: hidden;
 	position: relative;
-    border-radius: 8px;
+    border-radius: 30px;
     transition: transform ease-in-out 0.8s;
 }
 /* BUTTONS */
@@ -157,11 +158,11 @@ code {
 	color: white;
 	box-shadow: none;
 	overflow-x: hidden;
-	transition: width ease-in-out 0.2s;
+	transition: width ease-in-out 0.6s;
 }
 
 .width-50 {
-	width: 50% !important;
+	width: 70% !important;
 	box-shadow: 0px 0px 12px 1px rgb(82, 82, 82) !important;
 }
 
@@ -196,12 +197,12 @@ code {
 .screen-game {
 	height: 100%;
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: gold;
 	box-sizing: border-box;
 	overflow: hidden;
 }
 .screen-music {
-	background-color: #ffb500;
+	background-color: gold;
 	height: 100%;
 	width: 100%;
 	box-sizing: border-box;
@@ -210,14 +211,14 @@ code {
 .screen-setting {
 	height: 100%;
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: gold;
 	box-sizing: border-box;
 	overflow: hidden;
 }
 .screen-coverflow {
 	height: 100%;
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: gold;
 	box-sizing: border-box;
 	overflow: hidden;
 }
@@ -226,7 +227,7 @@ code {
 .all-songs {
 	height: 100%;
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: gold;
 	box-sizing: border-box;
 	overflow: hidden;
 }
@@ -355,11 +356,11 @@ code {
 	background-color: black;
 }
 
-/* ARTISTS SCREEN ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ARTISTS SCREEN  */
 
 .artists-screen {
-	background-color: white;
-	opacity: 0.8;
+	background-color: gold;
+	opacity: 0.98;
 	width: 100%;
 	height: 100%;
 }
@@ -367,13 +368,13 @@ code {
 /* ALBUMS SCREEN */
 .albums-screen
 {
-    background-color:white;
-    opacity:0.8;
+    background-color:gold;
+    opacity:0.98;
     width:100%;
     height:100%;
 }
 
-/* LOADER ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* LOADER  */
 
 .loader {
 	border: 16px solid #f3f3f3; /* Light grey */
@@ -407,12 +408,12 @@ code {
 	font-size: 50px;
 }
 
-/* IMAGES FOR EMPTY PAGES /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* IMAGES FOR EMPTY PAGES  */
 
 .screen-game>div
 {
     font-size:180px;
-    color:red;
+    color:black;
 }
 .screen-game h1
 {
@@ -429,7 +430,7 @@ code {
 .screen-setting>div
 {
     font-size:150px;
-    color:rgb(134, 134, 134);
+    color:black;
 }
 .screen-setting>div>svg
 {
@@ -442,7 +443,7 @@ code {
 .screen-coverflow>div
 {
     font-size:150px;
-    color:rgb(255, 145, 0);
+    color:black;
 }
 .screen-coverflow>div>svg
 {
@@ -455,7 +456,7 @@ code {
 .artists-screen>div
 {
     font-size:180px;
-    color:rgb(174, 0, 255);
+    color:black;
 }
 .artists-screen>div>svg
 {
@@ -468,7 +469,7 @@ code {
 .albums-screen>div
 {
     font-size:180px;
-    color:rgb(174, 0, 255);
+    color:black;
 }
 .albums-screen>div>svg
 {
@@ -476,13 +477,13 @@ code {
 }
 
 
-/* ROTATOR //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ROTATOR  
 
 .rotate
 {
     position:absolute;
     right:10%;
-    top:60%;
+    top:52%;
     width:30px;
     height:30px;
     border-radius: 100%;
@@ -497,3 +498,4 @@ code {
 {
     transform: rotateZ(-90deg);
 }
+*/
