@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 
 
 
-/* Your web app's Firebase configuration
+
+/* Your web app's Firebase configuration (Firebase is not being attached in this app since it will not play any music)
 var firebaseConfig = {
   apiKey: "AIzaSyD9tP8U6J_Mdte7oWvkDeO-4vKnhpYewpM",
   authDomain: "react-music-pod.firebaseapp.com",
@@ -20,7 +20,4 @@ firebase.initializeApp(firebaseConfig);
 */
 ReactDOM.render(<App />,document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+

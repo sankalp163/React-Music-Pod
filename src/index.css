@@ -45,7 +45,7 @@ code {
 	animation-timing-function: ease-in-out;
 }
 
-/* SCREEN */
+/* Pod Screen */
 .screen-container {
 	width: 320px;
 	height: 280px;
@@ -59,7 +59,7 @@ code {
     border-radius: 30px;
     transition: transform ease-in-out 0.8s;
 }
-/* BUTTONS */
+/* Pod buttons */
 .buttons-container {
 	width: 260px;
 	height: 260px;
@@ -161,7 +161,7 @@ code {
 	transition: width ease-in-out 0.6s;
 }
 
-.width-50 {
+.width-70 {
 	width: 70% !important;
 	box-shadow: 0px 0px 12px 1px rgb(82, 82, 82) !important;
 }
@@ -192,7 +192,7 @@ code {
 	font-size: large;
 }
 
-/* SCREENS  */
+/* Pod Screens  */
 
 .screen-game {
 	height: 100%;
@@ -235,27 +235,8 @@ code {
 	box-sizing: border-box;
 	overflow: hidden;
 }
-.all-songs-heading {
-	padding-bottom: 10px;
-	background-color: #6610f2;
-	margin: 0px;
-	height: 10%;
-	color: white;
-}
-.all-songs-list {
-	background-color: #343a40;
-	height: 86%;
-}
-.all-songs-list > div {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border: 1px solid rgb(0, 0, 0);
-	width: 1005;
-	height: 14%;
-	color: white;
-}
 
+/*Animation added when play music is selected*/
 @keyframes highlight
 {
     0%
@@ -272,19 +253,16 @@ code {
     }
 }
 
-.instruction-all-songs {
-	height: 20%;
-	background-color: #17a2b8;
-    color: white;
-
+/*Animation added to text*/
+.screen-music-instruction > p {
+    margin-top: 1%;
+    
     animation-name: highlight;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-play-state: running;
 }
-.selected-song {
-	background-color: #007bff;
-}
+
 
 /* MUSIC SCREEN  */
 .screen-music > h2 {
@@ -295,72 +273,11 @@ code {
 	color: white !important;
 }
 
-.song-image {
-	width: 50%;
-	height: 50%;
-	margin-left: auto;
-	box-shadow: 0px 0px 12px 5px grey;
-	margin-right: auto;
-	border-radius: 20px;
-}
 
-.song-image > img {
-	border-radius: inherit;
-	height: 100%;
-	width: 100%;
-}
 
-#audio {
-	outline: none;
-}
 
-.screen-music-instruction > p {
-    margin-top: 1%;
-    
-    animation-name: highlight;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-}
-/* BUTTONS ANIMATION */
-@keyframes background-gradient-animation {
-	0% {
-		background-color: #ff1d58;
-	}
-	20% {
-		background-color: #f75990;
-	}
-	40% {
-		background-color: #fff685;
-	}
-	60% {
-		background-color: #00ddff;
-	}
-	80% {
-		background-color: #0049b7;
-	}
-	100% {
-		background-color: #ff1d58;
-	}
-}
 
-.colored {
-    transition:background-color ease-in-out 0.2s;
-	animation-name: background-gradient-animation;
-	animation-duration: 5s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-	color: white;
-    opacity: 0.9;
-}
-.colored svg {
-	color: white;
-}
-.colored .center-circle {
-	background-color: black;
-}
-
-/* ARTISTS SCREEN  */
+/* Artists pod screen  */
 
 .artists-screen {
 	background-color: gold;
@@ -381,21 +298,14 @@ code {
 
 
 
-/* IMAGES FOR EMPTY PAGES  */
+/* Images for various pages  */
 
 .screen-game>div
 {
     font-size:180px;
     color:black;
 }
-.screen-game h1
-{
-    margin:0px;
-}
-.screen-game>div>svg
-{
-    -webkit-box-reflect: below -68px -webkit-gradient(linear, right top, right bottom, from(transparent), to(rgba(255, 255, 255, 0.4)));
-}
+
 .screen-setting>h1
 {
     margin:0px;
@@ -405,10 +315,7 @@ code {
     font-size:150px;
     color:black;
 }
-.screen-setting>div>svg
-{
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, right top, right bottom, from(transparent), to(rgba(255, 255, 255, 0.4)));
-}
+
 .screen-coverflow>h1
 {       
     margin:0px;
@@ -418,10 +325,7 @@ code {
     font-size:150px;
     color:black;
 }
-.screen-coverflow>div>svg
-{
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, right top, right bottom, from(transparent), to(rgba(255, 255, 255, 0.4)));
-}
+
 .artists-screen>h1
 {
     margin:0px;
@@ -431,10 +335,7 @@ code {
     font-size:180px;
     color:black;
 }
-.artists-screen>div>svg
-{
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, right top, right bottom, from(transparent), to(rgba(255, 255, 255, 0.4)));
-}
+
 .albums-screen>h1
 {
     margin:0px;
@@ -444,31 +345,5 @@ code {
     font-size:180px;
     color:black;
 }
-.albums-screen>div>svg
-{
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, right top, right bottom, from(transparent), to(rgba(255, 255, 255, 0.4)));
-}
 
 
-/* ROTATOR  
-
-.rotate
-{
-    position:absolute;
-    right:10%;
-    top:52%;
-    width:30px;
-    height:30px;
-    border-radius: 100%;
-    outline:none;
-    border:none;
-}
-.rotate-clockwise
-{
-    transform: rotateZ(90deg);
-}
-.rotate-anti-clockwise
-{
-    transform: rotateZ(-90deg);
-}
-*/
