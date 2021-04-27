@@ -28,8 +28,8 @@ class App extends React.Component
 
     componentDidMount()
     {
-        var zt = new ZingTouch.Region(document.getElementsByClassName('buttons-container')[0]);
-        zt.bind(document.getElementsByClassName('buttons-container')[0], 'rotate', (event) =>
+        var zingt = new ZingTouch.Region(document.getElementsByClassName('buttons-container')[0]);
+        zingt.bind(document.getElementsByClassName('buttons-container')[0], 'rotate', (event) =>
         {
             //zing touch feature is only working while the side bar is visible
             if (document.getElementsByClassName('screen-menu')[0].classList.contains('width-70'))
