@@ -1,3 +1,25 @@
+# React Mini Project
+Build an iPod using React.js. The following are the instructions:
+1.Build a menu of options like you see such as Settings, Games, Music etc
+2.On clicking of the centre button go inside the menu
+3.Clicking on the menu should hide the menu and open a screen of that particular option, like settings, games etc
+4.Click and hold on the circular menu and move the mouse in a circular fashion inside the menu boundary (white circle is the menu) to navigate in the iPod menu
+5.Clicking on “Menu” should take you back to the main menu
+6.(Optionally) can create sub menu inside menu like in Music option, it has sub menu with options “All songs”, “Artists” etc
+
+# Name - react-music-pod
+
+## Tools Used
+1. React JS
+
+## Screenshots
+Available in Screens folder
+
+
+## How to use?
+1. There are a bunch of buttons in the pod. The menu button is on the top, the next button on the right, back button on the left and the bottom one is the play/pause button. The middle button is the select button to select options from the menu.
+2. To move or navigate through the options of the menu, a clockwise swipe will move us to the option present below the  current option. Similarly an anticlockwise swipe will move us to the option present above the current option.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
