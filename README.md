@@ -13,7 +13,13 @@ Build an iPod using React.js. The following are the instructions:
 1. React JS
 
 ## Screenshots
-Available in Screens folder
+<br><br>
+![ss-1](https://user-images.githubusercontent.com/56267419/120849553-e3f0b700-c593-11eb-9ec0-5a60d451e220.png)
+<br><br>
+![ss-2](https://user-images.githubusercontent.com/56267419/120849580-ed7a1f00-c593-11eb-86d9-184ab789caeb.png)
+<br><br>
+![ss-7](https://user-images.githubusercontent.com/56267419/120849610-f965e100-c593-11eb-8d01-b9998ec6d4ac.png)
+
 
 
 ## How to use?
